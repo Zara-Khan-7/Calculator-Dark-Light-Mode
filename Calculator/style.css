@@ -1,0 +1,33 @@
+/* Import a font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+
+/* Define root-level CSS variables for colors */
+:root {
+	--body-bg-color: #e0e5ec;
+	/* Background color for the body */
+	--bg-color: #e0e5ec;
+	/* Background color for elements */
+	--primary-font-color: rgba(144, 152, 168, 1);
+	/* Primary font color */
+	--secondary-font-color: rgba(51, 64, 89, 1);
+	/* Secondary font color */
+	--soft-high-light: rgba(255, 255, 255, .43);
+	/* Soft highlight color */
+	--dark-high-light: rgba(217, 210, 200, .51);
+	/* Dark highlight color */
+}
+
+/* Dark theme styles when data-theme="dark" attribute is set */
+[data-theme="dark"] {
+	--bg-color: #131419;
+	/* Dark background color */
+	--primary-font-color: #c7c7c7;
+	/* Dark theme primary font color */
+	--secondary-font-color: #03a9f4;
+	/* Dark theme secondary font color */
+	--soft-high-light: rgba(255, 255, 255, .05);
+	/* Dark theme soft highlight color */
+	--dark-high-light: rgba(0, 0, 0, .51);
+	/* Dark theme dark highlight color */
+}
+
